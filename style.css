@@ -1,0 +1,138 @@
+/* Reset the Browser Defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  display: inline-block;
+  background-image: url('images/nav01.jpg');
+  opacity: 0.9;
+}
+
+nav li {
+  text-align: center;
+  display: inline-flex;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  justify-content: center;
+}
+
+a {
+  width: 160px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  margin: 20% auto;
+  background-color: transparent;
+  transition-property: border;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+a:hover {
+  border: 1px solid white;
+}
+
+img {
+  max-width: 600px;
+  height: auto;
+} 
+
+section {
+  display: block;
+}
+
+footer {
+  background-color:black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.products {
+  padding: 5px;
+  display: block;
+}
+
+#main,
+#sub-main {
+  background-color: black;
+  margin: 20px;
+}
+
+#main {
+  font-family: 'Raleway', serif;
+  font-size: 800;
+  position: center;
+}
+
+#p1,
+#p2,
+#p3 {
+  border: 0.5px solid gray;
+  border-radius: 5px;
+}
+
+#p1,
+#p2 {
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+}
+
+#p1 {
+  max-width: 47.5%;
+  min-width: 480px;
+}
+
+#p2 {
+  max-width: 47.5%;
+  min-width: 480px;
+  position: sticky;
+  left: 50%;
+}
+
+/* Rule definition for screen resolutions of 480px or less 
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  }
+
+
+
+@media only screen and (max-width: 960px)
+{.main
+  {
+  padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 480px)
+{.main
+  {
+  padding-top: 0;
+  }
+}
+
+*/
